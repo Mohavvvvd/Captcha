@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced CAPTCHA Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Enhanced CAPTCHA Game</h1>
+        <div id="shape-container">
+            <div id="circle" class="shape"></div>
+            <div id="square" class="shape"></div>
+            <div id="triangle" class="shape"></div>
+        </div>
+        <p id="question"></p>
+        <input type="text" id="answer" placeholder="Type the shape name" />
+        <button id="submit">Submit</button>
+        <p id="result"></p>
+        <p id="timer">Time left: <span id="time">10</span> seconds</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
